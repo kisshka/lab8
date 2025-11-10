@@ -1,5 +1,5 @@
 
-name: Lab8-workflow
+name: lab8
 
 on:
   push:
