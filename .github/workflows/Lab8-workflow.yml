@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build project on different versions
-        run: dotnet build ./src/lab.csproj --version-suffix ${{matrix.version}}
+        run: dotnet build ./src/lab.csproj
